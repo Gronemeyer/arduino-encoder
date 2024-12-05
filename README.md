@@ -1,6 +1,6 @@
 # arduino-encoder
 
-Let's add a new summary.
+Let's add a summary.
 
 Serial readout of a rotary encoder for collecting running wheel data
 
