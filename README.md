@@ -1,4 +1,7 @@
 # arduino-encoder
+
+Let's add a new summary.
+
 Serial readout of a rotary encoder for collecting running wheel data
 
 ### **Interpreting the Output of the Arduino Encoder in the Context of a Running Wheel**
