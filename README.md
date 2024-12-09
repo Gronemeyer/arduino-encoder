@@ -1,7 +1,5 @@
 # arduino-encoder
 
-Let's add a summary.
-
 Serial readout of a rotary encoder for collecting running wheel data
 
 ### **Interpreting the Output of the Arduino Encoder in the Context of a Running Wheel**
@@ -86,13 +84,13 @@ Assuming:
         $$\text{Distance} = 150 \text{ counts} \times 0.00153398 \text{ m/count} \approx 0.230097 \text{ m}$$
       
 
-### **Considerations**
+### **Things to consider**
 
-- **Direction of Rotation:**
+- **The Direction of Rotation:**
     - Negative `positionChange` values indicate reverse rotation.
     - Ensure calculations account for the sign of `positionChange`.
-- **Encoder Resolution:**
+- **The Encoder Resolution:**
     - Higher CPR provides more precise measurements but may require handling larger numbers.
-- **Sampling Rate:**
+- **The Sampling Rate:**
     - The `sampleWindow` should be chosen based on the expected speed of the wheel and the encoder's capabilities.
     - A shorter `sampleWindow` provides more frequent updates but may be more susceptible to noise.
